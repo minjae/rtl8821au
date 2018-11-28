@@ -1,15 +1,16 @@
 # rtl8821au
 Linux driver for wireless adapters with Realtek rtl8811au/rtl8812au/rtl8821au chipsets
 
-The projects strives support recent kernel versions (4.11 - 4.13) 
-in addition to existing support for earlier kernels versions.
+The projects strives support recent kernel versions (4.11 - 4.14) as publicly available drivers
+lacked the support for said versions. Kernel versions above 4.15 are not currently supported.
 
 The original source code is from `rtl8821AU_WiFi_linux_v5.2.6.2_23547.20170814_COEX20170206-6760`
 that came with a rtl8811au wireless USB adapter.  This driver is newer (v5) than what is publicly
-available online (v4 or older).
+available online at the time (v4 or older).  If you find a newer version of manufacturer driver, please
+let us know.
 
 ## Similar Projects 
-Similar projects exist, but they are based on older-version manufacturer drivers or are no longer supported.
+Similar projects exist, but they are based on older-version manufacturer drivers or are no longer maintained.
 
 https://github.com/astsam/rtl8812au \
 https://github.com/gnab/rtl8812au \
