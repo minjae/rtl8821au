@@ -19,6 +19,16 @@ https://github.com/diederikdehaas/rtl8812AU \
 https://github.com/ulli-kroll/rtl8821au \
 https://github.com/Grawp/rtl8812au_rtl8821au
 
+## Build on Raspberry pi 4
+```bash
+make ARCH=arm
+```
+
+If date-time errors appear, you can uncomment the following line in the CMAKE:
+
+```c
+#EXTRA_CFLAGS += -Wno-error=date-time
+```
 
 ## License
 GPLv2 as supplied by the manufacturer
